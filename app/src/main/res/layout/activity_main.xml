@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/err_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error Animation"
+            android:background="@drawable/btn_bg"
+            android:padding="15dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/success_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success Animation"
+            android:background="@drawable/btn_bg"
+            android:layout_below="@id/err_anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <style name="Base.Theme.CardAnimation" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/dark</item>
+    </style>
+    <style name="Theme.CardAnimation" parent="Base.Theme.CardAnimation" />
+</resources>
